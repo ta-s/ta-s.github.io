@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-
-body{  
-    margin: 0;  
-    padding: 100px 0 50px 0;  
-    }
     
 * html body{  
     overflow: hidden;  
@@ -44,6 +39,15 @@ div#footerArea {
 header {
   font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
 }
+
+body{  
+  text-align: center;
+    margin: 0;  
+    padding: 100px 0 50px 0;  
+     background-image: url("128-174.jpg");
+    }
+    
+
 .type-shine {
   font-size: 30px;
   position: relative;
@@ -91,10 +95,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-body{
-   text-align: center;
-   background-image: linear-gradient(-90deg, #F5002D, #1D9DD7);
-}
 
 
 h1{

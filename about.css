@@ -4,10 +4,7 @@
 }
 
 
-body{  
-    margin: 0;  
-    padding: 100px 0 50px 0;  
-    }
+
     
 * html body{  
     overflow: hidden;  
@@ -44,6 +41,20 @@ div#footerArea {
 header {
   font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
 }
+
+body{  
+    text-align: center;
+    padding: 100px 0 50px 0;
+     background-image: url("128-87.jpg");
+    
+    }
+    
+img {
+  max-width: 200px;
+  border: 500px   solid #fff;
+}
+    
+    
 .type-shine {
   font-size: 30px;
   position: relative;
@@ -63,6 +74,7 @@ header {
   0% {transform: rotate3d(0,0,1,-45deg) translate3d(0,-120%,0);background: rgba(255,255,255,0.5);}
   100% {transform: rotate3d(0,0,1,-25deg) translate3d(0,150%,0);background: rgba(255,255,255,0.5);}
 }
+
 
 
 nav {
@@ -90,38 +102,20 @@ nav ul li a {
   font-weight: bold;
 }
 
-body{
-   text-align: center;
-   background-image: linear-gradient(-90deg, #70FFF1, #D293AE);
-}
-
- 
-
-p1{
-  text-shadow: 2px 2px 2px #ffffff , -2px -2px 2px #ffffff;
-}
-
-p2{
-  text-shadow: 2px 2px 2px #ffffff , -2px -2px 2px #ffffff;
-}
-
-p3{
-  cd ta-s.github.iocd ta-s.github.io;
-}
-
-p4{
-  text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
-}
-
-p5{
-  text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
-}
-
-
-
-
-
-
 nav ul li a.selected {
   color: #000;
 }
+
+h1{
+   text-shadow: 2px 2px 2px  #ffffff;
+}
+
+h2{
+  text-shadow: 2px 2px 2px  #ffffff;
+}
+
+p{
+  text-shadow: 2px 2px 2px #ffffff , -2px -2px 2px #ffffff;
+}
+
+
